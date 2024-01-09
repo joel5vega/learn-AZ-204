@@ -16,3 +16,10 @@ homeTenantId: id of tenant
 * Show management groups
 `az account management-group list`
 `az account management-group show --name NAME`
+## explore command
+`get-command *az*`
+`get-azureadtenantdetail`
+- get tenants (id, name,domain) `get-aztenant`
+
+* connect to another tenant `connect-azaccount -tenant ID -usedeviceauthentication`
+* get context `get-azcontext`
